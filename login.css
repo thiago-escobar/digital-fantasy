@@ -21,8 +21,8 @@ h1{
     text-align: center;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 6rem;
-    margin: 0px;
-    line-height: 1;
+    margin: 0 0 2rem 0;
+    line-height: 0.7;
 }
 
 #login-area {
