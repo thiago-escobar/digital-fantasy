@@ -3,14 +3,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
+    to bottom right,
     blue,
     indigo,
-    violet
+    rgb(124, 0, 52),
+    indigo,
+    blue
   );
     display: flex;
     justify-content: center;
@@ -74,16 +72,7 @@ h1{
 .form-actions button {
     width: 100%;
     padding: 12px;
-    background-image: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
-  );
+    background-color: indigo;
     color: white;
     border: none;
     border-radius: 6px;
