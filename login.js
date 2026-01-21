@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const user = users.find(u => u.username === username && u.password === password);
 
             if (user) {
-                alert('Login successful!');
-                // You can redirect here: window.location.href = 'dashboard.html';
+                window.location.href = 'table.html';
             } else {
                 alert('Invalid username or password.');
             }

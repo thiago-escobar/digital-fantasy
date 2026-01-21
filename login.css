@@ -15,6 +15,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Alumni Sans', sans-serif !important;
 }
 
 h1{
