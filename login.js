@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const user = users.find(u => u.username === username && u.password === password);
 
             if (user) {
+                sessionStorage.setItem('name', user.name);
+                sessionStorage.setItem('id_user', user.id_user);
+                sessionStorage.setItem('role', user.role);
                 window.location.href = 'table.html';
             } else {
                 alert('Invalid username or password.');

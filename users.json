@@ -1,10 +1,16 @@
 [
     {
-        "username": "admin",
-        "password": "password123"
+        "username": "Thiago Escobar",
+        "password": "0384",
+        "name": "Midori-senpai",
+        "role": "dm",
+        "id_user": 1
     },
     {
-        "username": "player1",
-        "password": "gameon"
+        "username": "Nana Larrosa",
+        "password": "caosanddrama",
+        "name": "Nana",
+        "role": "player",
+        "id_user": 2
     }
 ]
