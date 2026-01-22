@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
 
+/* paleta de cores
+Azul base: #0C3683
+Violeta detalhes: #8C6ABE
+Vermelho especial: #7D283C
+Cinza chato: #8D918D
+Branco Fundo: #FFF
+Amarelo estranho: #F83C16
+*/
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(
     to bottom right,
-    blue,
-    indigo,
-    rgb(124, 0, 52),
-    indigo,
-    blue
+    #0C3683,
+    #8C6ABE,
+    #7D283C,
+    #8C6ABE,
+    #0C3683
   );
     margin: 0;
     font-family: 'Alumni Sans', sans-serif;
