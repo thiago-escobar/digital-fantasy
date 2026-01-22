@@ -12,5 +12,12 @@
         "name": "Nana",
         "role": "player",
         "id_user": 2
+    },
+    {
+        "username": "visitante",
+        "password": "escobada",
+        "name": "Visitante",
+        "role": "player",
+        "id_user": 100
     }
 ]

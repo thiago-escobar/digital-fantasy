@@ -1,5 +1,8 @@
+body{
+    background-color: #8D918D;
+}
 .navbar {
-    background-color: #333;
+    background-color: #0C3683;
     color: white;
     display: flex;
     justify-content: space-between;
