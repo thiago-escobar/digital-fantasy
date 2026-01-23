@@ -1,5 +1,10 @@
 body{
-    background-color: #8D918D;
+    /*background-color: #8D918D;*/
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 .navbar {
     background-color: #0C3683;
@@ -17,4 +22,35 @@ body{
 .navbar a:hover {
     text-decoration: underline;
 }
+h2{
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}
 .brand { font-weight: bold; font-size: 1.2rem; }
+main{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+#map{
+    width: 80%;
+    height: 100%;
+}
+#lateral-menu{
+    background-color: #8D918D;
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid #0C3683;
+    padding: 0.5rem;
+}
+.other-characters-menu{
+    border: 1px solid #0C3683;
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+}
+.character-name{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}

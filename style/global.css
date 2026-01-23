@@ -10,15 +10,6 @@ Amarelo estranho: #F83C16
 */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(
-    to bottom right,
-    #0C3683,
-    #8C6ABE,
-    #7D283C,
-    #8C6ABE,
-    #0C3683
-  );
     margin: 0;
     font-family: 'Alumni Sans', sans-serif;
 }

@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Display a welcome message in the main area
-    const main = document.querySelector('main');
+    const welcomeSpot = document.querySelector('#welcome-message');
     const welcomeMsg = document.createElement('h2');
     welcomeMsg.textContent = `Welcome, ${name} (${role})`;
     welcomeMsg.style.textAlign = 'center';
-    main.appendChild(welcomeMsg);
+    welcomeSpot.appendChild(welcomeMsg);
 });
