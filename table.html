@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="navbar">
-        <div class="brand">Digital Fantasy</div>
+        <h1 class="brand">Digital Fantasy</h1>
         <div id="welcome-message"></div>
         <nav>
             <a href="index.html" onclick="sessionStorage.clear()">Logout</a>
@@ -19,18 +19,64 @@
         <div id="map">
         </div>
         <div id="lateral-menu">
-            <div class="other-characters-menu">
+            <article class="other-characters-menu">
                 <p class="character-name">Character 1</p>
-                <p>Player: Blebs</p>
-            </div>
-            <div class="other-characters-menu">
+                <p class="player-name">Player: Blebs</p>
+                <div class="initiative">10</div>
+                <div class="stats-container">
+                    <div class="stat-row">
+                        <span class="stat-text">7/8</span>
+                        <div class="stat-bar"><div class="stat-value life" style="width: 87.5%"></div></div>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-text">10/12</span>
+                        <div class="stat-bar"><div class="stat-value energy" style="width: 83.3%"></div></div>
+                    </div>
+                </div>
+            </article>
+            <article class="other-characters-menu">
                 <p class="character-name">Character 2</p>
-                <p>Player: Blebs</p>
-            </div>
-            <div class="other-characters-menu">
+                <p class="player-name">Player: Blebs</p>
+                <div class="initiative">7</div>
+                <div class="stats-container">
+                    <div class="stat-row">
+                        <span class="stat-text">10/10</span>
+                        <div class="stat-bar"><div class="stat-value life" style="width: 100%"></div></div>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-text">4/6</span>
+                        <div class="stat-bar"><div class="stat-value energy" style="width: 66.6%"></div></div>
+                    </div>
+                </div>
+            </article>
+            <article class="other-characters-menu">
                 <p class="character-name">Character 3</p>
-                <p>Player: Blebs</p>
-            </div>
+                <p class="player-name">Player: Blebs</p>
+                <div class="initiative">6</div>
+                <div class="stats-container">
+                    <div class="stat-row">
+                        <span class="stat-text">2/8</span>
+                        <div class="stat-bar"><div class="stat-value life" style="width: 25%"></div></div>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-text">3/17</span>
+                        <div class="stat-bar"><div class="stat-value energy" style="width: 17.6%"></div></div>
+                    </div>
+                </div>
+            </article>
+            <article class="other-characters-menu villain">
+                <p class="character-name">Villain 1</p>
+                <p class="player-name">NPC</p>
+                <div class="initiative">3</div>
+                <div class="stats-container">
+                    <div class="stat-row">
+                        <div class="stat-bar"><div class="stat-value life" style="width: 50%"></div></div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-bar"><div class="stat-value energy" style="width: 70%"></div></div>
+                    </div>
+                </div>
+            </article>
         </div>
     </main>
     <script src="scripts/table.js"></script>

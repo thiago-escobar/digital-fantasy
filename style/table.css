@@ -22,6 +22,9 @@ body{
 .navbar a:hover {
     text-decoration: underline;
 }
+h1 {
+    margin-bottom: 0rem;
+}
 h2{
     font-size: 1rem;
     font-weight: normal;
@@ -46,11 +49,77 @@ main{
 }
 .other-characters-menu{
     border: 1px solid #0C3683;
-    margin-top: 1rem;
     padding: 0 0.5rem;
+    background-color: #fff;
+    position: relative;
+    min-height: 80px; /* Ensure space for the bars */
 }
 .character-name{
     margin-top: 0.5rem;
     margin-bottom: 0;
     font-weight: bold;
+    font-size: 2rem;
+}
+.player-name{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+.initiative {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.villain{
+    border: 1px solid #000;
+    padding: 0 0.5rem;
+    background-color: #7D283C;
+    color: #FFF;
+}
+.villain .initiative{
+    color: #000;
+}
+
+.stats-container {
+    position: absolute;
+    top: 45px; /* 10px top + 30px height + 5px gap */
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-end;
+}
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.stat-text {
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+.stat-bar {
+    width: 100px;
+    height: 10px;
+    background-color: #8D918D;
+    border: 1px solid #333;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.stat-value { height: 100%; }
+.life { background-color: #7D283C; }
+.energy { background-color: #8C6ABE }
+.villain .stat-bar{
+    border: 1px solid #fff;
 }
