@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Character 1",
+        "player": "Escobar",
+        "initiative": 100,
+        "stats": {
+            "life": { "current": 7, "max": 8, "percentage": 87.5 },
+            "energy": { "current": 10, "max": 12, "percentage": 83.3 }
+        },
+        "type": "hero"
+    },
+    {
+        "name": "Character 2",
+        "player": "Blebs",
+        "initiative": 7,
+        "stats": {
+            "life": { "current": 10, "max": 10, "percentage": 100 },
+            "energy": { "current": 4, "max": 6, "percentage": 66.6 }
+        },
+        "type": "hero"
+    },
+    {
+        "name": "Character 3",
+        "player": "Blebs",
+        "initiative": 6,
+        "stats": {
+            "life": { "current": 2, "max": 8, "percentage": 25 },
+            "energy": { "current": 3, "max": 17, "percentage": 17.6 }
+        },
+        "type": "hero"
+    },
+    {
+        "name": "Villain 1",
+        "player": "NPC",
+        "initiative": 3,
+        "stats": {
+            "life": { "percentage": 50 },
+            "energy": { "percentage": 70 }
+        },
+        "type": "villain"
+    }
+]
