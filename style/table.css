@@ -87,7 +87,21 @@ main{
 .villain .initiative{
     color: #000;
 }
-
+.npc{
+    background-color: #0C3683;
+    color: #FFF;
+}
+.npc .initiative{
+    color: #000;
+}
+.event{
+    background-color: #8C6ABE;
+    color: #FFF;
+    border: 1px solid #000;
+}
+.event .initiative{
+    color: #000;
+}
 .stats-container {
     position: absolute;
     top: 45px; /* 10px top + 30px height + 5px gap */
@@ -120,6 +134,7 @@ main{
 .stat-value { height: 100%; }
 .life { background-color: #7D283C; }
 .energy { background-color: #8C6ABE }
-.villain .stat-bar{
+.villain .stat-bar,
+.npc .stat-bar{
     border: 1px solid #fff;
 }

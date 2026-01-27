@@ -10,8 +10,8 @@
         "type": "hero"
     },
     {
-        "name": "Character 2",
-        "player": "Blebs",
+        "name": "NPC Amigo",
+        "player": "NPC",
         "initiative": 7,
         "stats": {
             "life": { "current": 10, "max": 10, "percentage": 100 },
@@ -38,5 +38,10 @@
             "energy": { "percentage": 70 }
         },
         "type": "villain"
+    },
+    {
+        "name": "Bless from the Cristal",
+        "initiative": 2,
+        "type": "event"
     }
 ]
